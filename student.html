@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML5, CSS3, Javascript, Web design, 웹디자인">
+    <meta name="description" content="멋진 웹서비스를 구현합니다.">
+    <meta name="author" content="Byeongjun Choi, 최병준">
+    <title>BLOG | 학생 홈페이지</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">웹</span>프로그래밍</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">홈으로</a></li>
+                    <li> <a href="about.html">강의소개</a></li>
+                    <li> <a href="ppt.html">강의자료</a></li>
+                    <li class="current"> <a href="student.html">학생홈페이지</a></li>
+                    <li> <a href="js.html">자바스크립트</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1>뉴스레터 구독 신청</h1>
+            <form>
+                <input type="email" placeholder="Enter Your Email">
+                <button type="submit" class="button">구독 신청</button>
+            </form>
+        </div>
+    </section id="main">
+    <div class="container">
+        <article id="main-col">
+            <h1 class="page-title">프로젝트팀 구성</h1>
+            <ul id="service">
+                <li>
+                    <h3>팀명 : 날으는 솔개들</h3>
+                    <p>
+                        팀원 : 홍길동, 홍심성, 가나다, 라마바
+                    </p>
+                    <p>
+                        주제 : 자바스크립트 어쩌고
+                    </p>
+                </li>
+                <li>
+                    <h3>팀명 : 나는 최고이다</h3>
+                    <p>
+                        팀원 : 나랑, 쟤랑, 걔랑, 얘
+                    </p>
+                    <p>
+                        주제 : 게임 매니아들
+                    </p>
+                </li>
+                <li>
+                    <h3>팀명 : 뛰는 놈 위에 나는 놈</h3>
+                    <p>
+                        팀명 : 뛰는놈, 나는놈, 기는놈
+                    </p>
+                    <p>
+                        주제 : 신나게 달려보자
+                    </p>
+                </li>
+
+
+            </ul>
+        </article>
+
+        <aside id="sidebar">
+            <div class="dark">
+                <h3>문의사항</h3>
+                <form class="quote">
+                    <div>
+                        <label for="">이름</label>
+                        <input type="text" placeholder="Name"><br>
+                    </div>
+                    <div>
+                        <label for="">이메일</label>
+                        <input type="email" placeholder="Email address"><br>
+                    </div>
+                    <div>
+                        <label for="">문의내용</label>
+                        <textarea placeholder="Message"></textarea><br>
+                    </div>
+                    <button type="submit" class="button">보내기</button>
+                </form>
+            </div>
+        </aside>
+    </div>
+    </section>
+
+    <footer>
+        Copyright &copy; 2021, 중부대학교 정보보호학과 최병준
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,212 @@
+body {
+    font: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.dark {
+    padding: 20px;
+    background-color: rgb(56, 56, 56);
+    color: white;
+    margin: 20px;
+ 
+}
+
+/* Header */
+
+header {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: tomato 3px solid;
+}
+
+header a {
+    color : white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+header li {
+    display: inline;
+    padding: 0 10px;
+    float: left;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 8px;
+}
+
+header .highlight, header .current a {
+    color: orangered
+}
+
+header a:hover {
+    color: #aaaaaa;
+    font-weight: bold;
+}
+
+/* Showcase */
+
+#showcase {
+    min-height: 400px;
+    background: url(https://c.wallhere.com/photos/d1/53/grey_square_Fifty_Shades_of_Grey_pattern-1393665.jpg!d)no-repeat 0 -400px;
+    text-align: center;
+    color: black;
+    
+    
+}
+
+#showcase h1 {
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/* Newsletter */
+
+#newsletter {
+    background-color: rgb(56, 56, 56);
+    padding: 15px;
+}
+
+#newsletter h1 {
+    color: white;
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 19px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+.button {
+    height: 35px;
+    background-color: tomato;
+    border: 0;
+    padding: 0 22px;
+    color: white;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Boxes */
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 11px;
+}
+
+#boxes .box img {
+    width: 100px;
+}
+
+/* Main-col */
+article#main-col {
+    float: left;
+    width: 65%;
+}
+
+/* Sidebar */
+aside#sidebar {
+float: right;
+width: 30%;
+}
+
+/* Service  */
+ul#service li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    background-color: #e6e6e6;
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: tomato;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+/* Media Quaries */
+@media(max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+#showcase h1 {
+    margin-top : 30px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+header {
+    padding-bottom: 10px;
+}
+
+#newsletter button, .quote button, header li {
+    display: block;
+    width:100%;
+}
+
+#newsletter form input[type="email"], .quote input, .quote textarea
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+}
